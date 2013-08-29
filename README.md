@@ -11,3 +11,5 @@ To get up and running and reproduce the issue:
 
 You should start seeing a small fraction of your requests ending with 500 errors. This is due to the start time on the payload attached to the `sql.active_record` event being `nil`, and thus the `raise` in `config/initializers/sql_subscriber.rb` being hit.
 
+Alternately, instead of running the app and driving load to against it, you can just run the included `test.rb` (`bundle exec rails runner test.rb`).
+
