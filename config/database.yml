@@ -9,6 +9,7 @@ development:
   username: root
   password: 
   database: noted
+  pool: 10
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
