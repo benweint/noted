@@ -1,5 +1,4 @@
-This is a dummy application to demonstrate an apparent concurrency issue
-with ActiveSupport::Notifications.
+This is a dummy application to demonstrate an apparent concurrency issue with ActiveSupport::Notifications, described [here](https://github.com/jruby/activerecord-jdbc-adapter/issues/407).
 
 To get up and running and reproduce the issue:
 
